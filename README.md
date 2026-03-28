@@ -32,15 +32,15 @@ This model answers: *Which socioeconomic and demographic factors best predict wh
 ## Visualizations
 
 ### 1. Class Distribution
-*(insert: docs/img/class_distribution.png)*
+*(insert: docs/class_distribution.png)*
 > 75.7% of records fall below $50K — class imbalance handled via balanced weights in the classifier.
 
 ### 2. Feature Importance
-*(insert: docs/img/feature_importance.png)*
+*(insert: docs/feature_importance.png)*
 > Household stability (marital status, relationship) and education years are the strongest income predictors — ahead of occupation type.
 
 ### 3. Confusion Matrix
-*(insert: docs/img/confusion_matrix.png)*
+*(insert: docs/confusion_matrix.png)*
 > High recall on the minority class (85%) confirms the model prioritizes capturing high-income individuals over avoiding false positives — appropriate for discovery-driven use cases.
 
 ---
