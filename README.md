@@ -38,10 +38,12 @@ This model answers: *Which socioeconomic and demographic factors best predict wh
 
 ### 2. Feature Importance
 <img width="815" height="455" alt="feature_imoprtances" src="https://github.com/user-attachments/assets/d726b1d1-c7d7-4844-9e00-9d68c26a73bb" />
+
 > Household stability (marital status, relationship) and education years are the strongest income predictors — ahead of occupation type.
 
 ### 3. Confusion Matrix
 <img width="548" height="455" alt="confusion_matrix" src="https://github.com/user-attachments/assets/75b2323c-3b15-4ed4-a40d-b43c3ea89f81" />
+
 > High recall on the minority class (85%) confirms the model prioritizes capturing high-income individuals over avoiding false positives — appropriate for discovery-driven use cases.
 
 ---
