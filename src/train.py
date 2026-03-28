@@ -71,6 +71,17 @@ print('metrics in test')
 print(classification_report(y_test, test_pred))
 
 
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+cm = confusion_matrix(y_test, test_pred)
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['<=50K', '>50K'], yticklabels=['<=50K', '>50K'])
+plt.title('Confusion Matrix for Test Set')
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.show()
+
 rf_clf.feature_importances_
 
 fi = pd.DataFrame(columns=["FEATURE", "IMPORTANCE"])
